@@ -3,6 +3,4 @@
 
 def soma_elementos(lista):
     soma = sum(lista)
-    print(soma)
-
-soma_elementos(lista)
+    return soma

@@ -4,8 +4,6 @@
 #A lista devolvida deve estar ordenada.
 
 def remove_repetidos(lista):
-    conjunto_sem_repeticao = set(lista)
-    lista_sem_repeticao = sorted(list(conjunto_sem_repeticao))
-    print(lista_sem_repeticao)
-
-remove_repetidos(lista)
+    lista_sem_repetidos = list(set(lista))
+    lista_sem_repetidos.sort()
+    return lista_sem_repetidos
